@@ -1,4 +1,4 @@
-#LumenSense csgo hack
+# LumenSense csgo hack
 
 ## How to start:
 
