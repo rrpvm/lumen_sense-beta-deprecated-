@@ -1,0 +1,12 @@
+#pragma once
+#include <Windows.h>
+#include <vector>
+#include <random>
+#include <string>
+#include <math.h>
+#include <cmath>
+#include <Psapi.h>
+#include <algorithm>
+#include "utils/Vector.h"
+#include "utils/Color.h"
+#include "utils/singleton.h"

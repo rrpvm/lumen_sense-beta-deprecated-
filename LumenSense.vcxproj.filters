@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{f7d42470-448e-45a9-999a-0622a775cb3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interfaces">
+      <UniqueIdentifier>{9eba4773-3ee2-493b-9848-974277f98c31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooks">
+      <UniqueIdentifier>{053bf203-933a-4ac4-a1e7-b573b67c3ad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{e4e86d21-5cf8-42ef-b91b-6ea668e11793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\features">
+      <UniqueIdentifier>{467fb317-82ff-49e1-8e53-0e046cf5684e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\features">
+      <UniqueIdentifier>{cb29b068-9674-4155-a641-86e051a3a760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{299dee9a-2593-4126-a553-d7769c5fb8be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hitsounds">
+      <UniqueIdentifier>{a2c7490e-bb7e-41c4-9852-e5f4661a172f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minhook">
+      <UniqueIdentifier>{7061918f-28d4-4fd8-b196-aea71ee20a21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="utils\Vector4D.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\VMatrix.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\Color.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="interfaces\CUserCmd.cpp">
+      <Filter>interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="interfaces\IVRenderBeam.cpp">
+      <Filter>interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\BaseHandle.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\v_funk.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\VMT.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hook_manager.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\hooks.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="chams.cpp">
+      <Filter>Исходные файлы\features</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\impl\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\impl\imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="visuals.cpp">
+      <Filter>Исходные файлы\features</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\sdk.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="legit.cpp">
+      <Filter>Исходные файлы\features</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.cpp">
+      <Filter>Исходные файлы\features</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\trampoline.c">
+      <Filter>minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\buffer.c">
+      <Filter>minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hook.c">
+      <Filter>minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hde\hde32.c">
+      <Filter>minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hde\hde64.c">
+      <Filter>minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="interfaces\ConVar.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="backend\cfg_system.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\csgo_struct.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="fake_ping.cpp">
+      <Filter>Исходные файлы\features</Filter>
+    </ClCompile>
+    <ClCompile Include="g_event.cpp">
+      <Filter>Исходные файлы\features</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_prediction.cpp">
+      <Filter>Исходные файлы\features</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\MinHook.cpp">
+      <Filter>hooks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Vector.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Vector4D.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\VMatrix.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Color.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\maxtrix3x4.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\singleton.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\CPanel.hpp">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\CUserCmd.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\game_event_manager.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IAppSystem.hpp">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IBaseClientDll.hpp">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IClientEntity.hpp">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IClientEntityList.hpp">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IClientMode.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IClientNetworkable.hpp">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IClientRenderable.hpp">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IClientThinkable.hpp">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IClientUnknown.hpp">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IConVar.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\ICvar.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IInputSystem.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IMaterialSystem.hpp">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\ISurface.hpp">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IVDebugOverlay.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IVEffects.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IVEngine.hpp">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IVEngineTrace.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IVModelInfo.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IVModelRender.hpp">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IVRenderBeam.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\IVRenderView.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\Prediction.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\CGlobalVars.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\CInput.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\ClientClass.hpp">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\ConVar.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\sdk.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\IHandleEntity.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\CBaseHandle.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\hooks.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\v_funk.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\VMT.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\hook_manager.hpp">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\csgo_struct.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="chams.h">
+      <Filter>Файлы заголовков\features</Filter>
+    </ClInclude>
+    <ClInclude Include="backend\cfg_system.hpp">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\impl\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\impl\imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="visuals.hpp">
+      <Filter>Файлы заголовков\features</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\csgo.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="backend\roblox_sound.h">
+      <Filter>hitsounds</Filter>
+    </ClInclude>
+    <ClInclude Include="backend\wot_hitsound.h">
+      <Filter>hitsounds</Filter>
+    </ClInclude>
+    <ClInclude Include="backend\bring_sound.h">
+      <Filter>hitsounds</Filter>
+    </ClInclude>
+    <ClInclude Include="backend\hentai_sound.h">
+      <Filter>hitsounds</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\EHandle.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\glow.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\UtlVector.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\UtlMemory.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\platform.hpp">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="legit.h">
+      <Filter>Файлы заголовков\features</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>Файлы заголовков\features</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces\ModelCache.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\font_weapon_icons_.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\MinHook.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\MinHook.h">
+      <Filter>minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\trampoline.h">
+      <Filter>minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\buffer.h">
+      <Filter>minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\hde64.h">
+      <Filter>minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\pstdint.h">
+      <Filter>minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\table32.h">
+      <Filter>minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\table64.h">
+      <Filter>minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\hde32.h">
+      <Filter>minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="fake_ping.h">
+      <Filter>Файлы заголовков\features</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\blyat_sound.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="g_event.h">
+      <Filter>Файлы заголовков\features</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_prediction.h">
+      <Filter>Файлы заголовков\features</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
